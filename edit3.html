@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit 3</title>
+</head>
+<body>
+
+    <h1>Edit Log</h1>
+
+    <form>
+        <label for='game-date'>Game Date</label>
+        <input type='date' name='game-date' value='2019-03-01' required>
+
+        <br/>
+
+        <label for='site'>Site</label>
+        <input type='text' name='site' value='Springfield' required>
+
+        <br/>
+
+        <label for='distance'>Distance (mi)</label>
+        <input type='number' name='distance' value='35' required>
+
+        <br/>
+
+        <label for='paid'>Paid?</label>
+        <select required>
+            <option selected value='yes'>YES</option>
+            <option value='no'>NO</option>
+            <option value='pending'>PENDING</option>
+        </select>
+
+        <br/>
+
+        <label for='type'>Type</label>
+        <select required>
+            <option value='other'>OTHER</option>
+            <option value='varsity'>VARSITY</option>
+            <option value='subvarsity'>SUBVARSITY</option>
+            <option selected value='tournament'>TOURNAMENT</option>
+            <option value='youth'>YOUTH</option>
+        </select>
+
+        <br/>
+
+        <label for='amount'>Amount ($)</label>
+        <input type='number' name='amount' value='40' required>
+
+        <br/>
+
+        <label for='notes'>Notes</label>
+        <input type='text' name='notes' value='None' required>
+
+        <br/>
+
+        <div class="top_link_group">
+                <a href='index.html'>Cancel</a>
+                <a href='#'>Save</a>
+        </div>
+
+    </form>
+</body>
+</html>

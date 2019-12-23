@@ -1,0 +1,46 @@
+.logo_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.logo {
+    border: 2px black solid;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+.logo_header_title {
+    margin-left: 10px;
+}
+
+h1, .top_link_group {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.search_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_group input {
+    margin-left: 10px;
+    font-size: 0.75em;
+    width: 13%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    font-size: 1.5em;
+}
+
+td {
+    font-size: 1.2em;
+}
