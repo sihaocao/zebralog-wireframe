@@ -1,3 +1,19 @@
+.landing-page {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+}
+
+.site-description {
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+}
+
 .logo_header {
     display: flex;
     align-items: center;
@@ -19,18 +35,6 @@ h1, .top_link_group {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.5em;
-}
-
-.search_group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.search_group input {
-    margin-left: 10px;
-    font-size: 0.75em;
-    width: 13%;
 }
 
 table {
